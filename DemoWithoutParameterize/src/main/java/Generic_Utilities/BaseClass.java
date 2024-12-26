@@ -30,7 +30,7 @@ public class BaseClass {
 	public void bt() {
 		System.out.println("parallel execution");
 	}
-	
+//	
 
 	@Parameters("BROWSER")
 	@BeforeClass(groups = {"smoke","Regression","sanity"})
